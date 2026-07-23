@@ -363,6 +363,29 @@ p {
   max-width: 720px;
 }
 
+.video-section {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.78fr) minmax(360px, 1.22fr);
+  gap: clamp(32px, 6vw, 86px);
+  align-items: center;
+}
+
+.video-frame {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #071a17;
+  box-shadow: var(--shadow);
+}
+
+.video-frame video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 720 / 406;
+  background: #071a17;
+}
+
 .section-copy.dark h2,
 .section-copy.dark p:not(.eyebrow) {
   color: white;
@@ -478,6 +501,7 @@ footer {
   .intro,
   .how-it-works,
   .showcase,
+  .video-section,
   .scoring,
   .planner,
   .technical,
