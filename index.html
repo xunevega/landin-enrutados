@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Enrutados te ayuda a elegir cómo llegar, dónde aparcar, dónde comer y qué ver cerca antes de abrir el mapa."
+      content="Enrutados te ayuda a elegir ruta, comida, parking y visitas durante un viaje."
     />
     <meta property="og:title" content="Enrutados" />
     <meta
       property="og:description"
-      content="Viajar es más que seguir una ruta. Decide cómo llegar, dónde aparcar, dónde comer y qué ver cerca."
+      content="¿Qué ruta te conviene? ¿Dónde comes? ¿Dónde aparcas? Enrutados ordena esas decisiones antes de abrir Google Maps."
     />
     <meta property="og:image" content="assets/enrutados-hero-vertical.png" />
-    <title>Enrutados | Viajar es más que seguir una ruta</title>
+    <title>Enrutados | Decide antes de abrir el mapa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,8 +30,8 @@
       </a>
 
       <nav aria-label="Navegación principal">
-        <a href="#viaje">Qué resuelve</a>
-        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#ejemplo">Ejemplo</a>
+        <a href="#funciones">Qué resuelve</a>
         <a class="nav-cta" href="demo.html">Probar demo</a>
       </nav>
     </header>
@@ -42,151 +42,163 @@
         <div class="hero-overlay" aria-hidden="true"></div>
 
         <div class="hero-content">
-          <p class="eyebrow light">Tu viaje, a tu manera</p>
-          <h1>Viajar es más que seguir una ruta.</h1>
+          <p class="eyebrow light">Antes de abrir Google Maps</p>
+          <h1>¿Qué ruta te conviene? ¿Dónde comes? ¿Dónde aparcas?</h1>
           <p class="hero-lead">
-            Enrutados te ayuda a elegir cómo llegar, dónde aparcar, dónde comer
-            y qué merece la pena ver antes de abrir el mapa.
+            Enrutados ordena las decisiones normales de un viaje para que no
+            tengas que resolverlas una por una.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="demo.html">Probar la demo</a>
-            <a class="button ghost" href="#viaje">Ver cómo funciona</a>
+            <a class="button ghost" href="#ejemplo">Ver un ejemplo</a>
           </div>
         </div>
       </section>
 
-      <section class="intro" id="viaje">
-        <div class="intro-copy">
-          <p class="eyebrow">Cuando estás de viaje</p>
-          <h2>La carretera es solo una parte.</h2>
-          <p>
-            Llegas a un lugar que no conoces. Quieres evitar una carretera
-            incómoda, dejar el coche sin dar veinte vueltas, comer algo sencillo
-            y aprovechar el tiempo que te queda.
+      <section class="trip-example" id="ejemplo">
+        <div class="trip-copy">
+          <p class="eyebrow">Un caso normal</p>
+          <h2>Vas de Gijón a Oporto.</h2>
+          <p class="trip-intro">
+            No quieres solo una línea azul. Quieres saber qué opción te compensa
+            de verdad.
           </p>
-          <p>
-            Enrutados organiza esas decisiones para que no tengas que buscarlas
-            una a una.
-          </p>
+
+          <div class="trip-points">
+            <div>
+              <strong>Ruta</strong>
+              <span>Evitar carreteras incómodas sin perder una hora.</span>
+            </div>
+            <div>
+              <strong>Parking</strong>
+              <span>Dejar el coche varias horas sin dar veinte vueltas.</span>
+            </div>
+            <div>
+              <strong>Comer</strong>
+              <span>Algo sencillo, con terraza y cerca de donde ya estás.</span>
+            </div>
+            <div>
+              <strong>Visitar</strong>
+              <span>Aprovechar una hora libre sin desviarte demasiado.</span>
+            </div>
+          </div>
         </div>
 
-        <figure class="intro-shot">
-          <img src="assets/acciones.png" alt="Pantalla principal de Enrutados" />
+        <figure class="trip-phone">
+          <img src="assets/acciones.png" alt="Pantalla principal de Enrutados con ruta, comida, parking y visita" />
         </figure>
       </section>
 
-      <section class="decisions" aria-labelledby="decisions-title">
-        <div class="section-heading centered">
-          <p class="eyebrow">Un viaje. Varias decisiones.</p>
-          <h2 id="decisions-title">Lo necesario, sin convertirlo en una expedición.</h2>
+      <section class="features" id="funciones">
+        <div class="section-heading">
+          <p class="eyebrow">Lo que resuelve</p>
+          <h2>Cuatro decisiones. Una sola app.</h2>
         </div>
 
-        <div class="decision-list">
+        <div class="feature-grid">
           <article>
-            <div class="decision-icon">01</div>
-            <div>
-              <h3>Una ruta que te convenga</h3>
-              <p>No solo la que tarde menos: peajes, curvas, pendientes y consumo también cuentan.</p>
-            </div>
+            <span class="feature-number">01</span>
+            <h3>Ruta</h3>
+            <p>Tiempo, peajes, curvas, pendientes y consumo. No solo “la más rápida”.</p>
           </article>
 
           <article>
-            <div class="decision-icon">02</div>
-            <div>
-              <h3>Un sitio fácil para comer</h3>
-              <p>Presupuesto, distancia, tipo de comida, terraza y requisitos reales del viaje.</p>
-            </div>
+            <span class="feature-number">02</span>
+            <h3>Comer</h3>
+            <p>Presupuesto, distancia, tipo de comida, terraza y requisitos del momento.</p>
           </article>
 
           <article>
-            <div class="decision-icon">03</div>
-            <div>
-              <h3>Dónde dejar el coche</h3>
-              <p>No es lo mismo aparcar diez minutos que dejarlo durante horas o todo el día.</p>
-            </div>
+            <span class="feature-number">03</span>
+            <h3>Aparcar</h3>
+            <p>No pesa igual parar diez minutos que dejar el coche durante todo el día.</p>
           </article>
 
           <article>
-            <div class="decision-icon">04</div>
-            <div>
-              <h3>Algo que merezca la pena ver</h3>
-              <p>Lugares cercanos y razonables según el tiempo que tengas disponible.</p>
-            </div>
+            <span class="feature-number">04</span>
+            <h3>Visitar</h3>
+            <p>Lugares cercanos que encajan con el tiempo que realmente tienes.</p>
           </article>
         </div>
       </section>
 
-      <section class="journey" id="como-funciona">
-        <div class="journey-copy">
-          <p class="eyebrow light">Así de sencillo</p>
-          <h2>Decide primero. Abre el mapa después.</h2>
+      <section class="how">
+        <div class="how-media">
+          <figure class="how-phone">
+            <img src="assets/food.png" alt="Ajustes de comida en Enrutados" />
+          </figure>
+        </div>
+
+        <div class="how-copy">
+          <p class="eyebrow light">Cómo funciona</p>
+          <h2>Eliges, ajustas y comparas.</h2>
           <p>
-            Enrutados no intenta sustituir Google Maps. Usa tus preferencias,
-            ordena pocas alternativas y te manda al mapa cuando ya sabes qué
-            quieres comprobar o a dónde quieres ir.
+            Enrutados usa tus preferencias como punto de partida. Si hoy quieres
+            gastar menos, caminar poco o evitar peajes, cambias solo eso.
           </p>
 
           <ol class="steps">
-            <li><span>1</span><strong>Elige</strong> ruta, comida, parking o visita.</li>
-            <li><span>2</span><strong>Ajusta</strong> solo lo que hoy sea diferente.</li>
-            <li><span>3</span><strong>Compara</strong> pocas opciones, claras y explicadas.</li>
-            <li><span>4</span><strong>Comprueba</strong> o navega con Google Maps.</li>
+            <li><span>1</span><strong>Elige</strong> qué necesitas resolver.</li>
+            <li><span>2</span><strong>Ajusta</strong> lo que cambia hoy.</li>
+            <li><span>3</span><strong>Compara</strong> pocas alternativas.</li>
+            <li><span>4</span><strong>Abre</strong> Google Maps para comprobar o navegar.</li>
           </ol>
-        </div>
-
-        <div class="journey-gallery">
-          <figure class="phone-card phone-card-main">
-            <img src="assets/food.png" alt="Ajustes de comida en Enrutados" />
-          </figure>
-          <figure class="phone-card phone-card-secondary">
-            <img src="assets/food-map.png" alt="Opciones de comida comprobadas en el mapa" />
-          </figure>
         </div>
       </section>
 
-      <section class="example">
-        <div class="section-heading">
-          <p class="eyebrow">Una decisión completa</p>
-          <h2>Lo que necesitas para seguir el viaje.</h2>
+      <section class="result">
+        <div class="result-copy">
+          <p class="eyebrow">Resultado real</p>
+          <h2>Pocas opciones. Y una razón para cada una.</h2>
           <p>
-            Una recomendación no termina en una lista. Enrutados permite ajustar
-            el momento, revisar alternativas y comprobar el resultado en el mapa.
+            En lugar de una lista interminable, ves alternativas concretas,
+            ajustables y fáciles de comprobar.
           </p>
         </div>
 
-        <div class="example-grid">
-          <figure class="large-shot">
-            <img src="assets/parking-map.png" alt="Alternativas de aparcamiento en el mapa" />
+        <div class="result-grid">
+          <figure>
+            <img src="assets/food-map.png" alt="Opciones de comida mostradas en el mapa" />
+            <figcaption>Comer cerca y comprobar antes de ir.</figcaption>
           </figure>
-          <figure class="large-shot">
-            <img src="assets/plan.png" alt="Plan rápido de ruta, comida, parking y visita" />
+
+          <figure>
+            <img src="assets/parking-map.png" alt="Alternativas de parking mostradas en el mapa" />
+            <figcaption>Parking según cuánto tiempo vas a dejar el coche.</figcaption>
           </figure>
         </div>
       </section>
 
-      <section class="demo-cta">
-        <div class="demo-copy">
-          <p class="eyebrow light">Pruébalo tú</p>
-          <h2>No hace falta instalar nada.</h2>
+      <section class="plan">
+        <div class="plan-copy">
+          <p class="eyebrow light">Cuando necesitas varias cosas</p>
+          <h2>Ruta, comida, parking y una visita sin empezar de cero cada vez.</h2>
           <p>
-            Entra en la demo y comprueba cómo cambia una recomendación según tus
-            preferencias, el tiempo disponible o lo que necesites resolver hoy.
+            El plan rápido junta decisiones ya explicadas y las adapta al tiempo
+            disponible.
           </p>
           <a class="button primary" href="demo.html">Abrir demo interactiva</a>
         </div>
 
-        <figure class="demo-bear">
-          <img src="assets/enrutados-logo-square.png" alt="Oso viajero de Enrutados consultando un mapa" />
+        <figure class="plan-shot">
+          <img src="assets/plan.png" alt="Plan rápido de Enrutados" />
         </figure>
+      </section>
+
+      <section class="final-cta">
+        <div>
+          <p class="eyebrow light">Enrutados</p>
+          <h2>Menos tiempo buscando. Más tiempo viajando.</h2>
+          <a class="button primary" href="demo.html">Probar la demo</a>
+        </div>
+
+        <img src="assets/enrutados-logo-square.png" alt="Oso viajero de Enrutados consultando un mapa" />
       </section>
     </main>
 
     <footer>
-      <a class="brand footer-brand" href="#inicio">
-        <img src="assets/enrutados-logo-square.png" alt="" />
-        <span>Enrutados</span>
-      </a>
-      <p>Menos tiempo buscando. Más tiempo viajando.</p>
+      <span>Enrutados</span>
+      <span>Decide antes de abrir el mapa.</span>
     </footer>
   </body>
 </html>
