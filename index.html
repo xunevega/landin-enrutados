@@ -10,7 +10,7 @@
     <meta property="og:title" content="Enrutados" />
     <meta
       property="og:description"
-      content="Una app para decidir mejor antes de abrir el mapa."
+      content="Decide antes de abrir el mapa: ruta, comida, parking y visitas."
     />
     <meta property="og:image" content="assets/enrutados-hero-illustration.png" />
     <title>Enrutados | Decide antes de abrir el mapa</title>
@@ -25,65 +25,57 @@
   <body>
     <header class="site-header">
       <a class="brand" href="#inicio" aria-label="Volver al inicio">
-        <img
-          class="brand-mark"
-          src="assets/enrutados-logo-illustration.png"
-          alt=""
-        />
+        <img class="brand-mark" src="assets/enrutados-logo-illustration.png" alt="" />
         <span>Enrutados</span>
       </a>
       <nav class="nav" aria-label="Navegación principal">
-        <a href="#decide">Decide</a>
-        <a href="#scoring">Scoring</a>
+        <a href="#problema">Producto</a>
+        <a href="#flujo">Flujo</a>
+        <a href="#video">Vídeo</a>
         <a href="#tecnico">Técnico</a>
       </nav>
     </header>
 
     <main id="inicio">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-shade"></div>
-        <div class="hero-content">
+      <section class="hero">
+        <div class="hero-copy-block">
           <p class="eyebrow">Ruta, comida, parking y visitas</p>
-          <h1 id="hero-title">Enrutados</h1>
-          <p class="hero-copy">
-            Decide qué hacer ahora, con tus preferencias delante y el mapa como
-            comprobación final.
+          <h1>Decide antes de abrir el mapa.</h1>
+          <p>
+            Enrutados usa tu perfil y el contexto del momento para reducir
+            opciones, explicarte por qué encajan y mandarte al mapa solo cuando
+            toca comprobar o ir.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#decide">Ver cómo decide</a>
-            <a class="button secondary" href="#tecnico">Arquitectura</a>
+            <a class="button primary" href="#flujo">Ver flujo</a>
+            <a class="button secondary" href="#video">Ver anuncio</a>
           </div>
         </div>
-        <figure class="hero-preview">
-          <img src="assets/acciones.png" alt="Acciones principales de Enrutados" />
+        <figure class="hero-phone">
+          <img src="assets/acciones.png" alt="Pantalla principal de Enrutados con acciones" />
         </figure>
       </section>
 
-      <section class="section intro" id="decide">
-        <div class="section-copy">
-          <p class="eyebrow">No es otro listado infinito</p>
-          <h2>La app reduce el ruido a pocas opciones buenas.</h2>
+      <section class="section problem" id="problema">
+        <div class="section-heading">
+          <p class="eyebrow">Qué resuelve</p>
+          <h2>No necesitas veinte resultados. Necesitas decidir.</h2>
           <p>
-            Enrutados separa cada decisión por vertical: conducir, comer, dejar
-            el coche y visitar. Cada una tiene su perfil, sus reglas y su forma
-            de explicar por qué una opción aparece antes que otra.
+            La app separa lo que normalmente se mezcla: cómo conduces, dónde
+            comes, cómo aparcas y qué te apetece visitar. Cada parte decide con
+            sus propias reglas.
           </p>
-          <img
-            class="identity-stamp"
-            src="assets/enrutados-logo-illustration.png"
-            alt="Marca ilustrada de Enrutados"
-          />
         </div>
-        <div class="pillars" aria-label="Verticales de decisión">
+        <div class="compact-grid">
           <article>
             <span>01</span>
-            <h3>Moverse</h3>
+            <h3>Conducir</h3>
             <p>Compara rutas por tiempo, peajes, curvas, pendientes y consumo.</p>
           </article>
           <article>
             <span>02</span>
             <h3>Comer</h3>
-            <p>Filtra por precio, distancia, requisitos, ritmo y fuentes.</p>
+            <p>Prioriza precio, distancia, ritmo, requisitos y confianza.</p>
           </article>
           <article>
             <span>03</span>
@@ -93,158 +85,89 @@
           <article>
             <span>04</span>
             <h3>Visitar</h3>
-            <p>Ordena primero por cercanía y después por calidad contrastada.</p>
+            <p>Ordena por cercanía y después por calidad contrastada.</p>
           </article>
         </div>
       </section>
 
-      <section class="section how-it-works">
-        <div class="section-copy">
-          <p class="eyebrow">Cómo funciona</p>
-          <h2>Primero entiende la intención, luego puntúa.</h2>
-          <p>
-            La app no empieza enseñando veinte resultados. Empieza preguntando
-            lo justo para saber qué decisión estás intentando tomar en ese
-            momento.
-          </p>
-        </div>
-        <div class="explain-grid">
-          <article>
-            <h3>1. Perfil estable</h3>
-            <p>
-              Guarda cómo sueles decidir: cuánto te importa ahorrar, caminar,
-              evitar peajes, comer rápido, aparcar cerca o visitar algo sin
-              perder media tarde.
-            </p>
-          </article>
-          <article>
-            <h3>2. Contexto del momento</h3>
-            <p>
-              No todos los días son iguales. Puedes cambiar presupuesto,
-              distancia aceptable, tiempo disponible o intención sin rehacer el
-              perfil completo.
-            </p>
-          </article>
-          <article>
-            <h3>3. Filtros antes de ordenar</h3>
-            <p>
-              Si algo no cumple lo básico, se aparta. Después el scoring ordena
-              solo opciones comparables, con avisos cuando una fuente no basta.
-            </p>
-          </article>
-          <article>
-            <h3>4. Comprobar e ir</h3>
-            <p>
-              Enrutados decide. Google Maps u otra fuente externa sirven para
-              confirmar, ver fotos, reseñas, ubicación real y finalmente llegar.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section flow-section">
-        <div class="section-copy flow-intro">
+      <section class="section flow" id="flujo">
+        <div class="section-heading">
           <p class="eyebrow">Flujo de uso</p>
-          <h2>De una pregunta sencilla a una decisión útil.</h2>
+          <h2>Pregunta poco, decide mejor.</h2>
           <p>
-            El funcionamiento se apoya en pantallas cortas. La app no pide todo
-            de golpe: usa el perfil, pregunta lo importante para ese momento y
-            deja la comprobación final a una fuente externa cuando aporta valor.
+            Enrutados no pide todos los parámetros de golpe. Usa lo que ya sabe,
+            pregunta lo imprescindible y permite ajustar lo que cambia hoy.
           </p>
         </div>
-        <div class="flow-steps">
-          <article class="flow-step">
+        <div class="flow-list">
+          <article class="flow-item">
             <figure>
-              <img src="assets/inicio.png" alt="Inicio con perfiles de Enrutados" />
+              <img src="assets/inicio.png" alt="Inicio con perfiles" />
             </figure>
             <div>
               <span>01</span>
-              <h3>Empieza desde perfiles separados</h3>
+              <h3>Perfil listo o pendiente</h3>
               <p>
-                Conducir, comer, aparcar y visitar no comparten el mismo peso.
-                Cada vertical guarda sus preferencias y avisa si falta completar
-                algo antes de decidir.
+                La pantalla inicial deja claro qué perfiles están completos y
+                cuáles faltan. Si no hay perfil, la app no finge decidir.
               </p>
             </div>
           </article>
-          <article class="flow-step">
+          <article class="flow-item">
             <figure>
-              <img src="assets/acciones.png" alt="Acciones principales de Enrutados" />
+              <img src="assets/acciones.png" alt="Acciones de Enrutados" />
             </figure>
             <div>
               <span>02</span>
-              <h3>Elige qué necesitas ahora</h3>
+              <h3>Elige la intención</h3>
               <p>
-                Puedes calcular ruta, buscar comida, dejar el coche, visitar
-                algo cercano o crear un plan rápido. La intención manda antes que
-                el listado de resultados.
+                Ruta, comer, dejar el coche, visitar o plan rápido. La intención
+                define qué reglas entran en juego.
               </p>
             </div>
           </article>
-          <article class="flow-step">
+          <article class="flow-item">
             <figure>
-              <img src="assets/food.png" alt="Ajuste de comida por presupuesto" />
+              <img src="assets/food.png" alt="Ajuste de comida" />
             </figure>
             <div>
               <span>03</span>
-              <h3>Ajusta solo lo que cambia hoy</h3>
+              <h3>Ajusta el momento</h3>
               <p>
-                Si el presupuesto, el tiempo o la distancia aceptable cambian,
-                se ajusta esa búsqueda concreta. El perfil sigue estable y el
-                scoring recalcula las opciones.
+                Si hoy puedes gastar más, caminar menos o comer más rápido, se
+                cambia esa búsqueda sin rehacer el perfil entero.
               </p>
             </div>
           </article>
-          <article class="flow-step">
+          <article class="flow-item">
             <figure>
-              <img src="assets/food-map.png" alt="Comprobación de comida en mapa" />
+              <img src="assets/food-map.png" alt="Comprobación en mapa" />
             </figure>
             <div>
               <span>04</span>
-              <h3>Comprueba antes de ir</h3>
+              <h3>Comprueba e ir</h3>
               <p>
-                Cuando una opción parece buena, Enrutados permite comprobarla en
-                mapa o fuente externa. La app decide; el mapa confirma y guía.
+                La app recomienda pocas opciones. Después puedes comprobar fotos,
+                reseñas, mapa y abrir navegación fuera de Enrutados.
               </p>
             </div>
           </article>
         </div>
       </section>
 
-      <section class="showcase">
-        <figure class="feature-shot">
-          <img src="assets/food-map.png" alt="Comida mostrada sobre el mapa" />
-        </figure>
-        <div class="section-copy dark">
-          <p class="eyebrow">Comprobar e ir</p>
-          <h2>La recomendación no termina en una tarjeta.</h2>
-          <p>
-            Cada resultado puede revisarse en mapa y abrirse fuera de la app. La
-            decisión es propia de Enrutados; la navegación queda donde el usuario
-            ya confía.
-          </p>
-          <ul class="explain-list">
-            <li>Mapa para comprobar, no para sustituir al navegador.</li>
-            <li>Fuentes externas como apoyo cuando aportan fotos o reseñas.</li>
-            <li>Salida clara: comprobar, elegir o ir.</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section video-section">
-        <div class="section-copy">
+      <section class="video-band" id="video">
+        <div>
           <p class="eyebrow">Anuncio corto</p>
-          <h2>Una idea rápida: salir, decidir y disfrutar.</h2>
+          <h2>Salir, decidir y disfrutar.</h2>
           <p>
-            Esta pieza no muestra el uso paso a paso. Funciona como presentación
-            de marca: Enrutados como compañero de viaje para moverte, comer,
-            aparcar y descubrir sin perderte entre opciones.
+            Esta pieza es promocional: presenta la idea de marca, no el paso a
+            paso de uso. El flujo real está explicado con capturas arriba.
           </p>
         </div>
         <figure class="video-frame">
           <video
             src="assets/enrutados-demo.mp4"
-            poster="assets/acciones.png"
+            poster="assets/enrutados-hero-illustration.png"
             controls
             muted
             playsinline
@@ -253,54 +176,46 @@
         </figure>
       </section>
 
-      <section class="section decisions">
-        <div class="decision-card">
-          <img src="assets/food.png" alt="Resultado recomendado para comer" />
+      <section class="section verticals">
+        <article class="feature-row">
+          <figure>
+            <img src="assets/food.png" alt="Decisión de comida en Enrutados" />
+          </figure>
           <div>
             <p class="eyebrow">Comer ahora</p>
-            <h2>Perfil, contexto y ajuste rápido.</h2>
+            <h2>Resultados pocos, claros y ajustables.</h2>
             <p>
-              Si hoy el presupuesto sube de 20 a 40 euros, la decisión cambia sin
-              rehacer el perfil entero.
+              El perfil marca el punto de partida: presupuesto, distancia,
+              ritmo, requisitos y fuentes. Si lo que aparece no convence, se
+              ajusta el parámetro del momento y se recalcula.
             </p>
-            <ul class="explain-list">
-              <li>Precio, distancia, ritmo, requisitos y confianza de la fuente.</li>
-              <li>Resultados pocos y comparables, no una lista interminable.</li>
-              <li>Opciones ajustables si lo que hay por 20 euros no convence.</li>
-            </ul>
           </div>
-        </div>
-        <div class="decision-card reverse">
-          <img src="assets/parking-map.png" alt="Parking con pines en el mapa" />
+        </article>
+        <article class="feature-row reverse">
+          <figure>
+            <img src="assets/parking-map.png" alt="Parking comprobado en mapa" />
+          </figure>
           <div>
             <p class="eyebrow">Dejar el coche</p>
-            <h2>Una intención clara antes de puntuar.</h2>
+            <h2>No es lo mismo pasear que estacionar.</h2>
             <p>
-              No es lo mismo aparcar para pasear que dejar el coche estacionado
-              muchas horas o días. La app lo pregunta antes de ordenar opciones.
+              Aparcar para dar una vuelta no pesa igual que dejar el coche
+              muchas horas o días. La primera pregunta cambia el scoring antes
+              de mostrar opciones.
             </p>
-            <ul class="explain-list">
-              <li>Si vas a pasear, no pagar puede ganar peso.</li>
-              <li>Si dejas el coche muchas horas, comodidad y seguridad pesan más.</li>
-              <li>Si tardas 5-10 minutos dando vueltas, aparece una alternativa.</li>
-            </ul>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="section scoring" id="scoring">
-        <div class="section-copy">
+        <div class="section-heading">
           <p class="eyebrow">Scoring visible</p>
-          <h2>Las barras muestran el peso real de cada criterio.</h2>
+          <h2>Las barras muestran relaciones, no mandos aislados.</h2>
           <p>
-            Al mover una variable, las demás se reajustan proporcionalmente. El
-            usuario no toca mandos aislados: cambia la relación entre criterios.
+            Cuando subes un criterio, los demás se recolocan proporcionalmente.
+            Así el usuario entiende el peso real de cada variable y la decisión
+            se puede explicar.
           </p>
-          <ul class="explain-list">
-            <li>Los porcentajes enseñan el peso real de cada decisión.</li>
-            <li>Las barras mantienen una relación entre sí.</li>
-            <li>El scoring se puede explicar y auditar.</li>
-          </ul>
         </div>
         <figure class="wide-shot">
           <img src="assets/scoring.png" alt="Barras de scoring con porcentaje visible" />
@@ -309,57 +224,52 @@
 
       <section class="section planner">
         <figure class="wide-shot">
-          <img src="assets/plan.png" alt="Plan rápido combinado de Enrutados" />
+          <img src="assets/plan.png" alt="Plan rápido combinado" />
         </figure>
-        <div class="section-copy">
+        <div class="section-heading">
           <p class="eyebrow">Plan rápido</p>
-          <h2>Cuando hay poco tiempo, combina lo importante.</h2>
+          <h2>Ruta, comida, parking y visita sin mezclarlo todo.</h2>
           <p>
-            Tengo X horas, quiero comer, aparcar y ver algo. Enrutados ya está
-            preparado para unir verticales sin meter una encima de otra.
+            El planner no sustituye las verticales. Compone decisiones ya
+            explicadas: tengo X tiempo, necesito aparcar, quiero comer y puedo
+            ver algo cerca.
           </p>
-          <ul class="explain-list">
-            <li>Ruta usa perfil de conducción.</li>
-            <li>Food usa perfil de comida.</li>
-            <li>Parking y visitar entran como decisiones separadas.</li>
-          </ul>
         </div>
       </section>
 
       <section class="section technical" id="tecnico">
-        <div class="section-copy">
+        <div class="section-heading">
           <p class="eyebrow">Base técnica</p>
-          <h2>Contratos separados para crecer sin parches.</h2>
+          <h2>Preparada para crecer sin parches.</h2>
           <p>
-            Cada vertical puede evolucionar sin romper las demás. La ruta no se
-            mezcla con comida, parking no pisa visitar y el planner compone
-            resultados ya explicados.
+            Cada vertical tiene contrato, perfil, filtros y ranker. La app puede
+            añadir nuevas fuentes o reglas sin convertir food, parking, visitas
+            y rutas en una sola bola.
           </p>
         </div>
-        <div class="tech-grid">
+        <div class="compact-grid technical-grid">
           <article>
             <h3>Consulta</h3>
             <p>Intención, contexto, restricciones y recuperación.</p>
-          </article>
-          <article>
-            <h3>Generación</h3>
-            <p>El texto explica la decisión; no mezcla recuperación.</p>
           </article>
           <article>
             <h3>Perfil</h3>
             <p>Preferencias, pesos, límites, overrides y feedback.</p>
           </article>
           <article>
+            <h3>Scoring</h3>
+            <p>Componentes visibles, filtros previos y avisos.</p>
+          </article>
+          <article>
             <h3>Auditoría</h3>
-            <p>Componentes de puntuación, avisos y trazabilidad.</p>
+            <p>Explicabilidad suficiente para reconstruir una decisión.</p>
           </article>
         </div>
       </section>
 
       <section class="final-cta">
         <p class="eyebrow">Enrutados</p>
-        <h2>Una app pequeña con una decisión grande dentro.</h2>
-        <p>Moverse, comer, aparcar o parar. Todo empieza por elegir mejor.</p>
+        <h2>Una app pequeña para decidir mejor en movimiento.</h2>
         <a class="button primary" href="#inicio">Volver arriba</a>
       </section>
     </main>
