@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Demo recorrible de Enrutados con capturas precargadas."
+    />
+    <title>Demo | Enrutados</title>
+    <link rel="preload" as="image" href="assets/inicio.png" />
+    <link rel="preload" as="image" href="assets/acciones.png" />
+    <link rel="preload" as="image" href="assets/food.png" />
+    <link rel="preload" as="image" href="assets/food-map.png" />
+    <link rel="preload" as="image" href="assets/parking-map.png" />
+    <link rel="preload" as="image" href="assets/scoring.png" />
+    <link rel="preload" as="image" href="assets/plan.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="demo.css" />
+  </head>
+  <body>
+    <header class="demo-header">
+      <a class="brand" href="index.html">
+        <img src="assets/enrutados-logo-illustration.png" alt="" />
+        <span>Enrutados</span>
+      </a>
+      <a class="back-link" href="index.html">Volver a la landing</a>
+    </header>
+
+    <main class="demo-shell">
+      <section class="demo-intro">
+        <p class="eyebrow">Demo recorrible</p>
+        <h1>Así decide Enrutados.</h1>
+        <p>
+          Recorre el flujo con capturas reales: perfil, intención, ajuste,
+          comprobación, scoring y plan rápido.
+        </p>
+      </section>
+
+      <section class="demo-stage" aria-live="polite">
+        <aside class="step-list" aria-label="Pasos de la demo">
+          <button class="step-tab is-active" type="button" data-step="0">
+            <span>01</span>
+            Perfil
+          </button>
+          <button class="step-tab" type="button" data-step="1">
+            <span>02</span>
+            Acción
+          </button>
+          <button class="step-tab" type="button" data-step="2">
+            <span>03</span>
+            Ajuste
+          </button>
+          <button class="step-tab" type="button" data-step="3">
+            <span>04</span>
+            Mapa
+          </button>
+          <button class="step-tab" type="button" data-step="4">
+            <span>05</span>
+            Scoring
+          </button>
+          <button class="step-tab" type="button" data-step="5">
+            <span>06</span>
+            Plan
+          </button>
+        </aside>
+
+        <figure class="phone-frame">
+          <img id="demo-image" src="assets/inicio.png" alt="Inicio con perfiles" />
+        </figure>
+
+        <article class="step-copy">
+          <p id="step-kicker" class="eyebrow">Paso 01</p>
+          <h2 id="step-title">Perfil listo o pendiente</h2>
+          <p id="step-text">
+            La app empieza mostrando qué perfiles están completos. Si falta un
+            perfil, no fuerza una recomendación: te lleva a completarlo.
+          </p>
+          <div class="progress" aria-hidden="true">
+            <span id="progress-bar"></span>
+          </div>
+          <div class="controls">
+            <button id="prev-step" type="button">Anterior</button>
+            <button id="next-step" type="button">Siguiente</button>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="demo.js"></script>
+  </body>
+</html>
