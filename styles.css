@@ -124,17 +124,17 @@ p {
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-family: "Source Serif 4", Georgia, serif;
-  font-size: clamp(4.3rem, 9vw, 8rem);
-  line-height: 0.88;
+  font-size: clamp(4rem, 8.1vw, 7.2rem);
+  line-height: 1.04;
 }
 
 h2 {
-  margin-bottom: 18px;
+  margin-bottom: 22px;
   color: var(--ink-strong);
-  font-size: clamp(2.05rem, 4.1vw, 4.45rem);
-  line-height: 1.08;
+  font-size: clamp(2rem, 3.85vw, 4.1rem);
+  line-height: 1.14;
   font-weight: 900;
 }
 
@@ -289,7 +289,7 @@ p {
 
 .flow-item h3 {
   font-size: clamp(1.45rem, 2.4vw, 2.25rem);
-  line-height: 1.05;
+  line-height: 1.14;
 }
 
 .flow-item p {
@@ -434,11 +434,11 @@ footer {
   }
 
   h1 {
-    font-size: clamp(3.7rem, 21vw, 6.4rem);
+    font-size: clamp(3.25rem, 17vw, 5.3rem);
   }
 
   h2 {
-    font-size: clamp(1.9rem, 11vw, 3rem);
+    font-size: clamp(1.85rem, 9.5vw, 2.85rem);
   }
 
   .compact-grid {
