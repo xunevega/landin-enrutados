@@ -54,26 +54,9 @@
             <a class="button secondary" href="#tecnico">Arquitectura</a>
           </div>
         </div>
-        <div class="hero-screens" aria-label="Pantallas de Enrutados">
-          <figure>
-            <img src="assets/inicio.png" alt="Inicio con perfiles" />
-          </figure>
-          <figure>
-            <img src="assets/acciones.png" alt="Acciones principales" />
-          </figure>
-          <figure>
-            <img src="assets/food.png" alt="Decisión de comida" />
-          </figure>
-          <figure>
-            <img src="assets/parking.png" alt="Decisión de parking" />
-          </figure>
-          <figure>
-            <img src="assets/scoring.png" alt="Ajustes de scoring" />
-          </figure>
-          <figure>
-            <img src="assets/plan.png" alt="Plan rápido" />
-          </figure>
-        </div>
+        <figure class="hero-preview">
+          <img src="assets/acciones.png" alt="Acciones principales de Enrutados" />
+        </figure>
       </section>
 
       <section class="section intro" id="decide">
@@ -115,21 +98,54 @@
         </div>
       </section>
 
-      <section class="showcase">
-        <div class="phone-gallery" aria-label="Capturas principales de Enrutados">
-          <figure class="phone-shot">
-            <img src="assets/inicio.png" alt="Inicio de Enrutados con perfiles listos" />
-          </figure>
-          <figure class="phone-shot">
-            <img src="assets/food-map.png" alt="Comida mostrada sobre el mapa" />
-          </figure>
-          <figure class="phone-shot">
-            <img src="assets/acciones.png" alt="Acciones de ruta, comida, parking y visitar" />
-          </figure>
-          <figure class="phone-shot">
-            <img src="assets/parking-map.png" alt="Parking mostrado sobre el mapa" />
-          </figure>
+      <section class="section how-it-works">
+        <div class="section-copy">
+          <p class="eyebrow">Cómo funciona</p>
+          <h2>Primero entiende la intención, luego puntúa.</h2>
+          <p>
+            La app no empieza enseñando veinte resultados. Empieza preguntando
+            lo justo para saber qué decisión estás intentando tomar en ese
+            momento.
+          </p>
         </div>
+        <div class="explain-grid">
+          <article>
+            <h3>1. Perfil estable</h3>
+            <p>
+              Guarda cómo sueles decidir: cuánto te importa ahorrar, caminar,
+              evitar peajes, comer rápido, aparcar cerca o visitar algo sin
+              perder media tarde.
+            </p>
+          </article>
+          <article>
+            <h3>2. Contexto del momento</h3>
+            <p>
+              No todos los días son iguales. Puedes cambiar presupuesto,
+              distancia aceptable, tiempo disponible o intención sin rehacer el
+              perfil completo.
+            </p>
+          </article>
+          <article>
+            <h3>3. Filtros antes de ordenar</h3>
+            <p>
+              Si algo no cumple lo básico, se aparta. Después el scoring ordena
+              solo opciones comparables, con avisos cuando una fuente no basta.
+            </p>
+          </article>
+          <article>
+            <h3>4. Comprobar e ir</h3>
+            <p>
+              Enrutados decide. Google Maps u otra fuente externa sirven para
+              confirmar, ver fotos, reseñas, ubicación real y finalmente llegar.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="showcase">
+        <figure class="feature-shot">
+          <img src="assets/food-map.png" alt="Comida mostrada sobre el mapa" />
+        </figure>
         <div class="section-copy dark">
           <p class="eyebrow">Comprobar e ir</p>
           <h2>La recomendación no termina en una tarjeta.</h2>
@@ -138,6 +154,11 @@
             decisión es propia de Enrutados; la navegación queda donde el usuario
             ya confía.
           </p>
+          <ul class="explain-list">
+            <li>Mapa para comprobar, no para sustituir al navegador.</li>
+            <li>Fuentes externas como apoyo cuando aportan fotos o reseñas.</li>
+            <li>Salida clara: comprobar, elegir o ir.</li>
+          </ul>
         </div>
       </section>
 
@@ -151,6 +172,11 @@
               Si hoy el presupuesto sube de 20 a 40 euros, la decisión cambia sin
               rehacer el perfil entero.
             </p>
+            <ul class="explain-list">
+              <li>Precio, distancia, ritmo, requisitos y confianza de la fuente.</li>
+              <li>Resultados pocos y comparables, no una lista interminable.</li>
+              <li>Opciones ajustables si lo que hay por 20 euros no convence.</li>
+            </ul>
           </div>
         </div>
         <div class="decision-card reverse">
@@ -162,6 +188,11 @@
               No es lo mismo aparcar para pasear que dejar el coche estacionado
               muchas horas o días. La app lo pregunta antes de ordenar opciones.
             </p>
+            <ul class="explain-list">
+              <li>Si vas a pasear, no pagar puede ganar peso.</li>
+              <li>Si dejas el coche muchas horas, comodidad y seguridad pesan más.</li>
+              <li>Si tardas 5-10 minutos dando vueltas, aparece una alternativa.</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -174,6 +205,11 @@
             Al mover una variable, las demás se reajustan proporcionalmente. El
             usuario no toca mandos aislados: cambia la relación entre criterios.
           </p>
+          <ul class="explain-list">
+            <li>Los porcentajes enseñan el peso real de cada decisión.</li>
+            <li>Las barras mantienen una relación entre sí.</li>
+            <li>El scoring se puede explicar y auditar.</li>
+          </ul>
         </div>
         <figure class="wide-shot">
           <img src="assets/scoring.png" alt="Barras de scoring con porcentaje visible" />
@@ -191,6 +227,11 @@
             Tengo X horas, quiero comer, aparcar y ver algo. Enrutados ya está
             preparado para unir verticales sin meter una encima de otra.
           </p>
+          <ul class="explain-list">
+            <li>Ruta usa perfil de conducción.</li>
+            <li>Food usa perfil de comida.</li>
+            <li>Parking y visitar entran como decisiones separadas.</li>
+          </ul>
         </div>
       </section>
 
@@ -198,6 +239,11 @@
         <div class="section-copy">
           <p class="eyebrow">Base técnica</p>
           <h2>Contratos separados para crecer sin parches.</h2>
+          <p>
+            Cada vertical puede evolucionar sin romper las demás. La ruta no se
+            mezcla con comida, parking no pisa visitar y el planner compone
+            resultados ya explicados.
+          </p>
         </div>
         <div class="tech-grid">
           <article>
