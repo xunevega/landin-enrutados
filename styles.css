@@ -28,8 +28,7 @@ body {
   letter-spacing: 0;
 }
 
-img,
-video {
+img {
   display: block;
   max-width: 100%;
 }
@@ -299,36 +298,6 @@ p {
   font-weight: 700;
 }
 
-.video-band {
-  display: grid;
-  grid-template-columns: minmax(280px, 0.72fr) minmax(360px, 1.28fr);
-  gap: clamp(34px, 6vw, 86px);
-  align-items: center;
-  padding: clamp(64px, 10vw, 128px) clamp(22px, 6vw, 88px);
-  color: white;
-  background: var(--deep);
-}
-
-.video-band h2,
-.video-band p:not(.eyebrow) {
-  color: white;
-}
-
-.video-frame {
-  margin: 0;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 8px;
-  background: var(--deep-2);
-  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
-}
-
-.video-frame video {
-  width: 100%;
-  aspect-ratio: 720 / 406;
-  background: var(--deep-2);
-}
-
 .verticals {
   display: grid;
   gap: clamp(36px, 6vw, 76px);
@@ -422,7 +391,6 @@ footer {
   .problem,
   .flow-item,
   .flow-item:nth-child(even),
-  .video-band,
   .feature-row,
   .feature-row.reverse,
   .scoring,
