@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Enrutados decide rutas, comida, parking y visitas con perfiles, scoring visible y comprobación en mapa."
+    />
+    <meta property="og:title" content="Enrutados" />
+    <meta
+      property="og:description"
+      content="Una app para decidir mejor antes de abrir el mapa."
+    />
+    <meta property="og:image" content="assets/hero-splash.png" />
+    <title>Enrutados | Decide antes de abrir el mapa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Volver al inicio">
+        <span class="brand-mark">E</span>
+        <span>Enrutados</span>
+      </a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#decide">Decide</a>
+        <a href="#scoring">Scoring</a>
+        <a href="#tecnico">Técnico</a>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-bg" src="assets/hero-splash.png" alt="" />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Ruta, comida, parking y visitas</p>
+          <h1 id="hero-title">Enrutados</h1>
+          <p class="hero-copy">
+            Decide qué hacer ahora, con tus preferencias delante y el mapa como
+            comprobación final.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#decide">Ver cómo decide</a>
+            <a class="button secondary" href="#tecnico">Arquitectura</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" id="decide">
+        <div class="section-copy">
+          <p class="eyebrow">No es otro listado infinito</p>
+          <h2>La app reduce el ruido a pocas opciones buenas.</h2>
+          <p>
+            Enrutados separa cada decisión por vertical: conducir, comer, dejar
+            el coche y visitar. Cada una tiene su perfil, sus reglas y su forma
+            de explicar por qué una opción aparece antes que otra.
+          </p>
+        </div>
+        <div class="pillars" aria-label="Verticales de decisión">
+          <article>
+            <span>01</span>
+            <h3>Moverse</h3>
+            <p>Compara rutas por tiempo, peajes, curvas, pendientes y consumo.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Comer</h3>
+            <p>Filtra por precio, distancia, requisitos, ritmo y fuentes.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Aparcar</h3>
+            <p>Distingue entre pasear un rato o dejar el coche muchas horas.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Visitar</h3>
+            <p>Ordena primero por cercanía y después por calidad contrastada.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="showcase">
+        <div class="phone-stack" aria-label="Capturas principales de Enrutados">
+          <figure class="phone large">
+            <img src="assets/inicio.png" alt="Inicio de Enrutados con perfiles listos" />
+          </figure>
+          <figure class="phone tilt">
+            <img src="assets/food-map.png" alt="Comida mostrada sobre el mapa" />
+          </figure>
+          <figure class="phone compact">
+            <img src="assets/acciones.png" alt="Acciones de ruta, comida, parking y visitar" />
+          </figure>
+        </div>
+        <div class="section-copy dark">
+          <p class="eyebrow">Comprobar e ir</p>
+          <h2>La recomendación no termina en una tarjeta.</h2>
+          <p>
+            Cada resultado puede revisarse en mapa y abrirse fuera de la app. La
+            decisión es propia de Enrutados; la navegación queda donde el usuario
+            ya confía.
+          </p>
+        </div>
+      </section>
+
+      <section class="section decisions">
+        <div class="decision-card">
+          <img src="assets/food.png" alt="Resultado recomendado para comer" />
+          <div>
+            <p class="eyebrow">Comer ahora</p>
+            <h2>Perfil, contexto y ajuste rápido.</h2>
+            <p>
+              Si hoy el presupuesto sube de 20 a 40 euros, la decisión cambia sin
+              rehacer el perfil entero.
+            </p>
+          </div>
+        </div>
+        <div class="decision-card reverse">
+          <img src="assets/parking-map.png" alt="Parking con pines en el mapa" />
+          <div>
+            <p class="eyebrow">Dejar el coche</p>
+            <h2>Una intención clara antes de puntuar.</h2>
+            <p>
+              No es lo mismo aparcar para pasear que dejar el coche estacionado
+              muchas horas o días. La app lo pregunta antes de ordenar opciones.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section scoring" id="scoring">
+        <div class="section-copy">
+          <p class="eyebrow">Scoring visible</p>
+          <h2>Las barras muestran el peso real de cada criterio.</h2>
+          <p>
+            Al mover una variable, las demás se reajustan proporcionalmente. El
+            usuario no toca mandos aislados: cambia la relación entre criterios.
+          </p>
+        </div>
+        <figure class="wide-shot">
+          <img src="assets/scoring.png" alt="Barras de scoring con porcentaje visible" />
+        </figure>
+      </section>
+
+      <section class="section planner">
+        <figure class="wide-shot">
+          <img src="assets/plan.png" alt="Plan rápido combinado de Enrutados" />
+        </figure>
+        <div class="section-copy">
+          <p class="eyebrow">Plan rápido</p>
+          <h2>Cuando hay poco tiempo, combina lo importante.</h2>
+          <p>
+            Tengo X horas, quiero comer, aparcar y ver algo. Enrutados ya está
+            preparado para unir verticales sin meter una encima de otra.
+          </p>
+        </div>
+      </section>
+
+      <section class="section technical" id="tecnico">
+        <div class="section-copy">
+          <p class="eyebrow">Base técnica</p>
+          <h2>Contratos separados para crecer sin parches.</h2>
+        </div>
+        <div class="tech-grid">
+          <article>
+            <h3>Consulta</h3>
+            <p>Intención, contexto, restricciones y recuperación.</p>
+          </article>
+          <article>
+            <h3>Generación</h3>
+            <p>El texto explica la decisión; no mezcla recuperación.</p>
+          </article>
+          <article>
+            <h3>Perfil</h3>
+            <p>Preferencias, pesos, límites, overrides y feedback.</p>
+          </article>
+          <article>
+            <h3>Auditoría</h3>
+            <p>Componentes de puntuación, avisos y trazabilidad.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <p class="eyebrow">Enrutados</p>
+        <h2>Una app pequeña con una decisión grande dentro.</h2>
+        <p>Moverse, comer, aparcar o parar. Todo empieza por elegir mejor.</p>
+        <a class="button primary" href="#inicio">Volver arriba</a>
+      </section>
+    </main>
+
+    <footer>
+      <span>Enrutados</span>
+      <span>Landing estática para GitHub Pages.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
